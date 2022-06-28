@@ -7,6 +7,7 @@ const drivers = {
   RaMfV: { name: 'Romain Grosjean', team: 'Ferrari', cars: ['Opel Cadet'] },
 }
 
+//Create a function that will print out a list of the cars, with no duplicates
 //output should be ['Toyota Corolla 2018', 'BMW M3', "F1", 'DB8', 'CLK489', 'Opel Cadet']
 
 //return array of cars, no duplicates
