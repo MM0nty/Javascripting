@@ -12,11 +12,16 @@ const drivers = {
 
 //return array of cars, no duplicates
 const function info(drivers) {
+  //create empty array
   let array = [];
+  //loop through drivers object
   for (let driver in drivers) {
+    //create shortcut variable for object
     let car = drivers[driver].cars;
+    //loop through car array
     for (let c of car) {
       if (!array.includes(c)) {
+        //if c doesn't exist, push
         array.push(c);
       }
     }
