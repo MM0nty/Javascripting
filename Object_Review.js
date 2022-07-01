@@ -16,12 +16,12 @@ const function info(drivers) {
   let array = [];
   //loop through drivers object
   for (let driver in drivers) {
-    //create shortcut variable for object
+    //create shortcut variable for object (instead of always typing "drivers[driver].cars"
     let car = drivers[driver].cars;
     //loop through car array
     for (let c of car) {
       if (!array.includes(c)) {
-        //if c doesn't exist, push
+        //if c doesn't exist, push c into array
         array.push(c);
       }
     }
