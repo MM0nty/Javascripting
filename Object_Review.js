@@ -20,8 +20,9 @@ const function info(drivers) {
     let car = drivers[driver].cars;
     //loop through car array
     for (let c of car) {
+      //if c doesn't exist
       if (!array.includes(c)) {
-        //if c doesn't exist, push c into array
+        //push c into array
         array.push(c);
       }
     }
