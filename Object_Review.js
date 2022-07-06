@@ -16,7 +16,7 @@ const function info(drivers) {
   let array = [];
   //loop through drivers object
   for (let driver in drivers) {
-    //create shortcut variable for object (instead of always typing "drivers[driver].cars"
+    //create shortcut variable for object (instead of always typing "drivers[driver].cars")
     let car = drivers[driver].cars;
     //loop through car array
     for (let c of car) {
